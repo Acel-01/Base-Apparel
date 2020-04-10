@@ -1,0 +1,202 @@
+
+body, html{
+    height: 100%;
+    font-family: 'Josefin Sans';
+}
+
+
+.grid-container {
+    display: flex;
+    grid-template-columns: 60% 40%;
+    margin-top: -10px;
+    height: 100%;
+    margin-left: -10px;
+    
+
+}
+.grid-item {
+    padding: 20px;
+}
+.a{
+    background-image: url("../img/bg-pattern-desktop.svg");
+    padding-left: 130px;
+    padding-right: 300px;
+    padding-top: 60px;
+}
+.b{
+    background-image: url("../img/hero-desktop.jpg");
+    float: right;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+}
+#b{
+    font-weight: 300;
+    padding-top: 12%;
+    font-size: 50px;
+    margin-bottom: -20px;
+    color: hsl(0, 36%, 70%);
+}
+K{  color: hsl(0, 93%, 68%);
+    color: hsl(0, 36%, 70%);
+    color: hsl(0, 6%, 24%);
+    }
+#c{
+    font-weight: 600; 
+    font-size: 50px; 
+    margin-bottom: 0px;
+}
+.emef{
+    margin-top: 15px;
+    padding: 10px;
+    padding-right: 150px;
+    border-radius: 30px;
+    text-decoration: none;
+    border-color: hsl(0, 36%, 70%);
+    outline: none;
+}
+.emef::placeholder{
+    color: hsl(0, 36%, 70%);
+}
+.emef[type=email]{
+    padding-left: 25px;
+}
+
+.emeb{
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-left: -74px;
+    text-decoration: none;
+    color: white;
+    border-color: hsl(0, 93%, 68%);
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    outline: none;
+    border: none;
+    box-shadow: black;
+    cursor: pointer;
+}
+.emeb:hover{
+    background-image: linear-gradient(135,white,pink);
+}
+p{
+    color: hsl(0, 36%, 70%);
+}
+
+
+@media only screen and (max-width: 1209px){
+    
+body, html{
+    height: 100%;
+    font-family: 'Josefin Sans';
+}
+
+
+.grid-container {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: 40% 60%;
+    margin-top: -10px;
+    height: 100%;
+    margin-left: -10px;
+    
+
+}
+.grid-item {
+    padding: 20px;
+}
+.a{
+    background-image: url("../img/bg-pattern-desktop.svg");
+    padding-left: 75px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.b{
+    background-image: url("../img/hero-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#b{
+    font-weight: 300;
+    padding-top: 12%;
+    font-size: 25px;
+    margin-bottom: -20px;
+    color: hsl(0, 36%, 70%);
+}
+K{  color: hsl(0, 93%, 68%);
+    color: hsl(0, 36%, 70%);
+    color: hsl(0, 6%, 24%);
+    }
+#c{
+    font-weight: 600; 
+    font-size: 25px; 
+    margin-bottom: 0px;
+}
+.emef{
+    margin-top: 15px;
+    padding: 10px;
+    padding-right: 55px;
+    border-radius: 30px;
+    text-decoration: none;
+    border-color: hsl(0, 36%, 70%);
+    outline: none;
+}
+.emef::placeholder{
+    color: hsl(0, 36%, 70%);
+}
+.emef[type=email]{
+    padding-left: 25px;
+}
+
+.emeb{
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-left: -65px;
+    text-decoration: none;
+    color: white;
+    border-color: hsl(0, 93%, 68%);
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    outline: none;
+    border: none;
+    box-shadow: black;
+    cursor: pointer;
+}
+.emeb:hover{
+    background-image: linear-gradient(135,white,pink);
+}
+p{
+    color: hsl(0, 36%, 70%);
+}
+}
+
+@media only screen and (max-width: 102px){
+    body, html{
+        height: 100%;
+        font-family: 'Josefin Sans';
+    }
+    
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 40% 60%;
+        margin-top: -10px;
+        height: 100%;
+        margin-left: -10px;
+    }
+
+    .grid-item {
+        padding: 20px;
+    }
+
+    .b{
+        background-image: url(../img/hero-mobile.jpg);
+        float: left;
+    }
+}
